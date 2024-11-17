@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/nutbulla.jpg"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>$NUTBULLA</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/nutbulla.jpg" alt="" class="nav__logo-img" />
+          NUTBULLA (CTO)
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#teams" class="nav__link">Teams</a>
+            </li>
+
+            <a
+              href="https://t.me/CTOnutbulla"
+              target="_blank"
+              class="button button--ghost"
+              >Telegram</a
+            >
+            <a
+              href="https://x.com/nutbullacto"
+              target="_blank"
+              class="button button--ghost"
+              >X</a
+            >
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <!-- <img src="assets/img/nomve.jpeg" alt="" class="nav__img" /> -->
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <!-- HOME SLIDER 2 -->
+            <section class="swiper-slide">
+              <section class="home">
+                <div
+                  class="home__content"
+                  style="width: 100%; margin: 0; padding-top: 200px"
+                >
+                  <!-- Gambar Full Width -->
+                  <div class="home__group" style="width: 100%">
+                    <img
+                      src="assets/img/nutbulla.jpg"
+                      alt="NomVe Treasury"
+                      class="home__img"
+                      style="width: 100%; height: auto; display: block"
+                    />
+                  </div>
+
+                  <!-- Tulisan di Bawah Gambar -->
+                  <div
+                    class="home__data"
+                    style="text-align: center; padding: 20px; margin-top: 10px"
+                  >
+                    <h1 class="home__title">NUTBULLA (CTO)<br /></h1>
+                    <p class="home__description">
+                      $NUTBULLA is Community Take Over and we are updated on
+                      Dexscreener
+                    </p>
+
+                    <!-- Tombol Smart Contract -->
+                    <div
+                      class="home__buttons"
+                      style="
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <a
+                        href="https://jup.ag/swap/SOL-FmfwV7NPqGnXse7SA9w6fwjDf1zg3FAdpMbdg4EqtkXF"
+                        target="_blank"
+                        class="button"
+                        style="
+                          padding: 10px 20px;
+                          background-color: #007bff;
+                          color: #fff;
+                          text-decoration: none;
+                          border-radius: 5px;
+                        "
+                      >
+                        Buy Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DISCOUNT ====================-->
+      <section class="section discount">
+        <div class="discount__container container grid">
+          <div class="discount__data">
+            <h2 class="discount__title">
+              Our Token are Updated<br />
+              ON Dexscreener
+            </h2>
+            <a
+              href="https://dexscreener.com/solana/4ngP7WbiybDPUKV6x46sukG2Au1JVPtHpKpYihidXr3t"
+              class="button"
+              >Dexscreener</a
+            >
+          </div>
+
+          <img src="assets/img/Dexscreener.jpg" alt="" class="discount__img" />
+        </div>
+      </section>
+
+      <!--==================== NEW ARRIVALS ====================-->
+      <section class="section new" id="teams">
+        <h2 class="section__title">Nutbulla Teams</h2>
+
+        <div class="new__container container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <div class="new__content swiper-slide">
+                <div class="new__tag">CEO</div>
+                <img src="assets/img/nutbulla.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Community</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEWSLETTER ====================-->
+      <section class="section newsletter">
+        <div class="newsletter__container container">
+          <h2 class="section__title">LIVE CHARTS</h2>
+
+          <div
+            class="iframe__container"
+            style="overflow: hidden; padding-top: 56.25%; position: relative"
+          >
+            <iframe
+              id="iframe-05"
+              frameborder="0"
+              sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-presentation allow-top-navigation"
+              src='javascript: window.frameElement.getAttribute("srcdoc");'
+              srcdoc='
+        <script>
+            window.onmessage = function(event) {
+                event.source.postMessage({iframeId: event.data, scrollHeight: document.body.getBoundingClientRect().height || document.body.scrollHeight}, event.origin);
+            };
+        </script>
+        <body style=&apos;margin: 0&apos;>
+            <style>
+                #dexscreener-embed {
+                    position: relative;
+                    width: 100%;
+                    padding-bottom: 80%; /* Increase padding-bottom to make iframe taller */
+                }
+                @media(min-width: 1px) {
+                    #dexscreener-embed {
+                        padding-bottom: 80%; /* Adjust padding-bottom for different screen sizes if necessary */
+                    }
+                }
+                #dexscreener-embed iframe {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    border: 0;
+                }
+            </style>
+            <div id="dexscreener-embed">
+                <iframe src="https://dexscreener.com/solana/4ngP7WbiybDPUKV6x46sukG2Au1JVPtHpKpYihidXr3t?embed=1&theme=dark"></iframe>
+            </div>
+        </body>'
+              style="
+                width: 100%;
+                overflow: visible;
+                transition: height 1.5s ease 0s;
+                height: 80vh;
+              "
+            >
+              <!-- Set height to 80% of the viewport height -->
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img
+              src="assets/img/nutbulla.jpg"
+              alt=""
+              class="footer__logo-img"
+            />
+            NUTBULLA
+          </a>
+
+          <p class="footer__description">
+            Follow Our<br />
+            Social Media
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="https://t.me/CTOnutbulla"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-telegram"></i>
+            </a>
+            <a
+              href="https://x.com/nutbullacto"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Partners</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Dexscreener</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Our Teams</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Community</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; $NUTBULLA. All rigths reserved</span>
+
+      <img src="assets/img/Dexscreener.jpg" alt="" class="footer__img-one" />
+      <img src="assets/img/nutbulla.jpg" alt="" class="footer__img-two" />
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
